@@ -99,5 +99,5 @@ function readFile2(filename) {
   console.log(res.match(/.{1,40}/g));
 }
 
-// readFile1("./data.txt");
+readFile1("./data.txt");
 readFile2("./data.txt");
